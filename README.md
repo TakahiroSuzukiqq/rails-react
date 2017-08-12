@@ -29,11 +29,11 @@ $ rake db:migrate
   [REACT official tutorial](https://facebook.github.io/react/tutorial/tutorial.html)   
   [react-rails](https://facebook.github.io/react/tutorial/tutorial.html)  
   Japanese only: [react-railsを使ってReactのTutorialをやってみるby joe-re Edited at 2016-11-18](http://qiita.com/joe-re/items/96f12dda4a62470d1d7c)     
-  Japanese only: [一人React.js Advent Calendar 2014](http://qiita.com/advent-calendar/2014/reactjs)    
+  Japanese only: [一人React.js Advent Calendar 2014 by koba04](http://qiita.com/advent-calendar/2014/reactjs)    
   [joe-re's Github](https://github.com/joe-re/react-rails-tutorial)   
   [Medium clone built with Ruby on Rails by kenny-hibino](https://github.com/kenny-hibino/stories)  
   [Integration of React + Webpack + Rails to build Universal (Isomorphic) Apps by shakacode](https://github.com/shakacode/react_on_rails)    
-     
+  [webpackを使った Rails上でのReact開発 by Mr. Haga Edited at 2016-07-27](http://techlife.cookpad.com/entry/2016/07/27/101015)     
          
              
 # Issues warnings   
