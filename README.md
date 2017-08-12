@@ -30,9 +30,8 @@ $ rake db:migrate
      
        
   ````  
-  Warning: Each child in an array or iterator should have a unique "key" prop.  
-  => put 
-  ````  
+  Warning: Each child in an array or iterator should have a unique "key" prop.   
+  ````    
   [stack overflow : Warning: Each child in an array or iterator should have a unique "key" prop.](https://stackoverflow.com/questions/34576332/warning-each-child-in-an-array-or-iterator-should-have-a-unique-key-prop-che)    
   [unique key related warning: Japanese](http://h3poteto.hatenablog.com/entry/2016/01/03/013921)  
 
