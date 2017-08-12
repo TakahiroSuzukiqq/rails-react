@@ -8,6 +8,7 @@ $ rails g react:component CommentBox
 $ rails g controller comments  
 * Create index page and code `<%= react_component('CommentBox') %>`    
 * Routing : `root 'comments#index'`  
+$ rails g controller api/v1/comments --no-assets  (for API controller, so no need to create js and stylesheet)    
 ````  
   
 # Reference    
