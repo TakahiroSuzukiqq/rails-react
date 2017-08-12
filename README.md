@@ -4,8 +4,9 @@
   (*Following turorial is written in Japanese.) 　　  
     
   <a href="https://ibb.co/ksodNF"><img src="https://image.ibb.co/hHTOpv/Screen_Shot_2017_08_12_at_22_30_03.png" alt="Screen_Shot_2017_08_12_at_22_30_03" border="0"></a>  
-      
 
+          
+   
 # Basic setup and installation   
 ````  
 $ rails new react-rails-tutorial --database=postgresql  
@@ -18,16 +19,23 @@ $ rails g controller comments
 * Routing : `root 'comments#index'`  
 $ rails g controller api/v1/comments --no-assets  (for API controller, so no need to create js and stylesheet)    
 $ rails g model comment author:string text:text (create Model to access db and to receive json)  
-$ rake db:migrate
+$ rake db:migrate  
+* create GET and POST function  
 ````  
-  
+     
+        
+            
 # Reference   
   [REACT official tutorial](https://facebook.github.io/react/tutorial/tutorial.html)   
   [react-rails](https://facebook.github.io/react/tutorial/tutorial.html)  
   Japanese only: [react-railsを使ってReactのTutorialをやってみるby joe-re Edited at 2016-11-18](http://qiita.com/joe-re/items/96f12dda4a62470d1d7c)     
   Japanese only: [一人React.js Advent Calendar 2014](http://qiita.com/advent-calendar/2014/reactjs)    
   [joe-re's Github](https://github.com/joe-re/react-rails-tutorial)   
-
+  [Medium clone built with Ruby on Rails by kenny-hibino](https://github.com/kenny-hibino/stories)  
+  [Integration of React + Webpack + Rails to build Universal (Isomorphic) Apps by shakacode](https://github.com/shakacode/react_on_rails)    
+     
+         
+             
 # Issues warnings   
   
   ## Uncaught ReferenceError: $ is not defined    
