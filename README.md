@@ -47,12 +47,12 @@ $ rake db:migrate
         
   <a href="https://ibb.co/cxkEev"><img src="https://image.ibb.co/naSSzv/Screen_Shot_2017_08_12_at_17_49_33.png" alt="Screen_Shot_2017_08_12_at_17_49_33" border="0"></a>  
       
-  <a href="https://ibb.co/nEXwRa"><img src="https://image.ibb.co/ickGRa/Screen_Shot_2017_08_12_at_18_11_15.png" alt="Screen_Shot_2017_08_12_at_18_11_15" border="0"></a>  
+  <a href="https://ibb.co/nEXwRa"><img src="https://image.ibb.co/ickGRa/Screen_Shot_2017_08_12_at_18_11_15.png" alt="Screen_Shot_2017_08_12_at_18_11_15" border="0"></a>     
       
         
           
-　 ## Uncaught TypeError: React.findDOMNode is not a function.        
-      
+## Uncaught TypeError: React.findDOMNode is not a function.        
+  In the CommentForm component, I got the above error with below code so just changed another following code.      
   ````    
   var CommentForm = React.createClass({  
   handleSubmit: function(e) {  
@@ -67,8 +67,9 @@ $ rake db:migrate
     React.findDOMNode(this.refs.text).value = '';   
     return;   
   },   
-  ````    
-  ````    
+  ~~~~
+  ````      
+  ````      
   var CommentForm = React.createClass({   
   handleSubmit: function(e) {   
     e.preventDefault();    
@@ -82,6 +83,10 @@ $ rake db:migrate
     ReactDOM.findDOMNode(this.refs.text).value = '';    
     return;    
   },    
-  ````      
+  ~~~~
+  ````   
+  <a href="https://ibb.co/j58g9v"><img src="https://image.ibb.co/nJ2mba/Screen_Shot_2017_08_12_at_22_50_10.png" alt="Screen_Shot_2017_08_12_at_22_50_10" border="0"></a>  
+
+          
       
           
